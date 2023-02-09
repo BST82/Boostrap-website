@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/tea_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+   
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    
+    /* background-image: url("./images/bg_nav.jpg"); */
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+       
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+  
+}
+li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 5px 10px 20px rgb(0, 21, 255);
+    font-family: 'Dancing Script', cursive;
+font-family: 'M PLUS Code Latin', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.click_nav{
+    display: flex;
+}
+.logo > img{
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+.btn-my:hover{
+    background-color: hotpink;
+}
+.btn-my-2:hover{
+    background-color: rgb(142, 26, 219);
+}
+.btn-my{
+    color: rgb(244, 236, 236);
+font-size: 20px;
+background-color: rgb(108, 105, 94);
+box-shadow: 5px 10px 20px yellow;
+border: none;
+margin-left: 400px;
+font-family: 'Dancing Script', cursive;
+font-family: 'M PLUS Code Latin', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.btn-my-2{
+    color: rgb(244, 236, 236);
+font-size: 20px;
+background-color: rgb(15, 34, 103);
+box-shadow: 5px 10px 20px yellow;
+border: none;
+margin-right: 30px;
+font-family: 'Dancing Script', cursive;
+font-family: 'M PLUS Code Latin', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.custom_col{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 70px;
+    border-radius: 30px;
+   text-align: center;
+   box-shadow: 5px 10px 20px rgb(0, 255, 229);
+}
+.custon_col_second,.custon_col_second-2{
+    margin-top: 30px;
+}
+.custon_col_second{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 30px;
+    border-radius: 30px;
+   text-align: center;
+   box-shadow: 5px 10px 20px rgb(0, 255, 229);
+   width:250px
+}
+.custon_col_second:hover{
+    background-color: lightgreen;
+}
+.custon_col_second-2{
+color: white;
+padding-top: 30px;
+margin-left: 20px;
+font-size: 30px;
+
+}
+p{
+    font-family: 'Dancing Script', cursive;
+font-family: 'M PLUS Code Latin', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+}
